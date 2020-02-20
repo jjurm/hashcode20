@@ -29,7 +29,6 @@ class Library(
     override fun equals(other: Any?) = id == (other as Library).id
     override fun hashCode() = id
 
-
     fun maxAddedScore(remainingDays: Days): Score {
         var remainingBooks = (remainingDays - signup) * rate
 

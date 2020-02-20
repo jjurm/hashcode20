@@ -2,10 +2,10 @@ package com.jjurm.hashcode20
 
 import java.lang.RuntimeException
 
-val remainingLibraries = libraries.toHashSet()
+val remainingLibraries = libraries!!.toHashSet()
 
 fun solution1(): Output {
-    var remainingDays = D
+    var remainingDays = D!!
 
     val out: Output = mutableListOf()
     var wasEmpty = false
